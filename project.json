@@ -1,0 +1,13 @@
+{
+    "id": "libmodbus",
+    "type": "package",
+    "value": {
+        "description": "A Modbus library for Linux, Mac OS X, FreeBSD, QNX and Windows",
+        "author": "Stéphane Raimbault",
+        "version": "1.0.0",
+        "language": "c",
+        "noapi": true,
+        "managed": false,
+        "include": ["$(PROJECT_INCLUDE)"]
+    }
+}
