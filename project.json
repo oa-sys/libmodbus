@@ -8,6 +8,8 @@
         "language": "c",
         "noapi": true,
         "managed": false,
-        "include": ["$(PROJECT_INCLUDE)"]
+        "include": [
+            "${locate include}"
+        ]
     }
 }
